@@ -1,9 +1,4 @@
 import cv2
-# imagine = cv2.imread("image.jpeg")
-
-# edges = cv2.Canny(imagine, 50, 20)
-
-# cv2.imshow("Imaginea mea", edges)
 
 faceCascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 imagine = cv2.imread("image22.jpg")
